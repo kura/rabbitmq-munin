@@ -24,23 +24,23 @@ echo "done"
 echo "restart munin-node"
 /etc/init.d/munin-node restart
 echo "done"
-echo "/etc/munin/plugins/plugins/rabbitmq-connections"
-/etc/munin/plugins/plugins/rabbitmq-connections
+echo "/etc/munin/plugins/rabbitmq-connections"
+/etc/munin/plugins/rabbitmq-connections
 echo
-echo "/etc/munin/plugins/plugins/rabbitmq-consumers"
-/etc/munin/plugins/plugins/rabbitmq-consumers
+echo "/etc/munin/plugins/rabbitmq-consumers"
+/etc/munin/plugins/rabbitmq-consumers
 echo
-echo "/etc/munin/plugins/plugins/rabbitmq-messages"
-/etc/munin/plugins/plugins/rabbitmq-messages
+echo "/etc/munin/plugins/rabbitmq-messages"
+/etc/munin/plugins/rabbitmq-messages
 echo
-echo "/etc/munin/plugins/plugins/rabbitmq-messages_unacknowledged"
-/etc/munin/plugins/plugins/rabbitmq-messages_unacknowledged
+echo "/etc/munin/plugins/rabbitmq-messages_unacknowledged"
+/etc/munin/plugins/rabbitmq-messages_unacknowledged
 echo
-echo "/etc/munin/plugins/plugins/rabbitmq-messages_uncommitted"
-/etc/munin/plugins/plugins/rabbitmq-messages_uncommitted
+echo "/etc/munin/plugins/rabbitmq-messages_uncommitted"
+/etc/munin/plugins/rabbitmq-messages_uncommitted
 echo
-echo "/etc/munin/plugins/plugins/rabbitmq-queue_memory"
-/etc/munin/plugins/plugins/rabbitmq-queue_memory
+echo "/etc/munin/plugins/rabbitmq-queue_memory"
+/etc/munin/plugins/rabbitmq-queue_memory
 echo
 echo "it works!"
 exit 0
