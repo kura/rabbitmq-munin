@@ -14,12 +14,12 @@ echo "move"
 mv plugins/rabbitmq* /usr/share/munin/plugins/
 echo "done"
 echo "symlink"
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-connections /etc/munin/plugins/plugins/rabbitmq-connections
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-consumers /etc/munin/plugins/plugins/rabbitmq-consumers
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-messages /etc/munin/plugins/plugins/rabbitmq-messages
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-messages_unacknowledged /etc/munin/plugins/plugins/rabbitmq-messages_unacknowledged
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-messages_uncommitted /etc/munin/plugins/plugins/rabbitmq-messages_uncommitted
-ln -s /usr/share/munin/plugins/plugins/rabbitmq-queue_memory /etc/munin/plugins/plugins/rabbitmq-queue_memory
+ln -s /usr/share/munin/plugins/rabbitmq-connections /etc/munin/plugins/rabbitmq-connections
+ln -s /usr/share/munin/plugins/rabbitmq-consumers /etc/munin/plugins/rabbitmq-consumers
+ln -s /usr/share/munin/plugins/rabbitmq-messages /etc/munin/plugins//rabbitmq-messages
+ln -s /usr/share/munin/plugins/rabbitmq-messages_unacknowledged /etc/munin/plugins/rabbitmq-messages_unacknowledged
+ln -s /usr/share/munin/plugins/rabbitmq-messages_uncommitted /etc/munin/plugins/rabbitmq-messages_uncommitted
+ln -s /usr/share/munin/plugins/rabbitmq-queue_memory /etc/munin/plugins/rabbitmq-queue_memory
 echo "done"
 echo "restart munin-node"
 /etc/init.d/munin-node restart
